@@ -1,16 +1,16 @@
 const generateRandomNum = (num) => {
-  return Math.random() * num;
+  return (Math.random() * num);
 }
 
 const generateRandomDelay = () => {
   return generateRandomNum(10) * 100;
 }
 
-const getNumLessThanTen = (num, callback) => {
+const getNumLessThanTen = (callback) => {
   const randomDelay = generateRandomDelay();
 
   setTimeout(() => {
-    const randNum = generateRandomNum(num);
+    const randNum = generateRandomNum(10);
     callback(null, randNum);
   }, randomDelay);
 };
