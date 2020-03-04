@@ -4,6 +4,7 @@
   "description": "",
   "main": "numLessThanTenAsync.js",
   "scripts": {
+    "start": "printf 'This start script does not work work. You must figure out how to run your files.\nWarm regards,\nJordan'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
