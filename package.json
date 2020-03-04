@@ -4,7 +4,11 @@
   "description": "",
   "main": "numLessThanTenAsync.js",
   "scripts": {
+<<<<<<< HEAD:package.json
     "start": "printf 'This start script does not work work. You must figure out how to run your files.\nWarm regards,\nJordan'",
+=======
+    "start": "echo 'This start script doesn't work. You must figure out how to run your files. && echo 'Warm regards,' && echo 'Jordan'",
+>>>>>>> d10f2559d11014379061797c097ebb2ed84aa761:package.json
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

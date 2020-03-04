@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const writeToHardDrive = (data, callback) => {
+const writeToFile = (data, callback) => {
   fs.writeFile('numFile.txt', data, 'utf8', (err) => {
     if (err) {
       throw err;
@@ -10,5 +10,5 @@ const writeToHardDrive = (data, callback) => {
   });
 };
 
-module.exports = writeToHardDrive;
+module.exports = writeToFile;
 
